@@ -1,0 +1,103 @@
+{
+  "questions": [
+    {
+      "question": "What is JSX in React?",
+      "options": [
+        "A JavaScript library",
+        "A syntax extension for JavaScript",
+        "A state management tool",
+        "A component lifecycle method"
+      ],
+      "correctOption": 1,
+      "points": 15
+    },
+    {
+      "question": "What is the purpose of React Router?",
+      "options": [
+        "To manage component state",
+        "To handle HTTP requests",
+        "To navigate between views in a single-page application",
+        "To create responsive design layouts"
+      ],
+      "correctOption": 2,
+      "points": 15
+    },
+    {
+      "question": "What is the role of the virtual DOM in React?",
+      "options": [
+        "It is used for virtual reality integration",
+        "It is an alternative to CSS",
+        "It improves the performance by updating only changed parts of the actual DOM",
+        "It handles API requests and responses"
+      ],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "What is the purpose of the useEffect hook in React?",
+      "options": [
+        "To create animations",
+        "To manage component lifecycle events",
+        "To handle user input",
+        "To perform side effects in functional components"
+      ],
+      "correctOption": 3,
+      "points": 20
+    },
+    {
+      "question": "What does the term 'controlled component' mean in React?",
+      "options": [
+        "A component that is easy to control with external scripts",
+        "A component that has its state managed by Redux",
+        "A component that follows strict HTML rules",
+        "A component whose state is controlled by React, not the DOM"
+      ],
+      "correctOption": 3,
+      "points": 15
+    },
+    {
+      "question": "What is the purpose of the Redux library in a React application?",
+      "options": [
+        "To manage component state",
+        "To handle routing",
+        "To create functional components",
+        "To manage the global state of the application"
+      ],
+      "correctOption": 3,
+      "points": 20
+    },
+    {
+      "question": "What is the significance of the key prop in React lists?",
+      "options": [
+        "It defines the layout for list items",
+        "It is used for authentication purposes",
+        "It helps React identify which items have changed, are added, or are removed",
+        "It specifies the color of list items"
+      ],
+      "correctOption": 2,
+      "points": 15
+    },
+    {
+      "question": "What is React Fiber?",
+      "options": [
+        "A new rendering engine for React",
+        "A styling library for React components",
+        "A form of artificial intelligence in React",
+        "A utility for handling asynchronous operations in React"
+      ],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "question": "What is the purpose of PropTypes in React?",
+      "options": [
+        "To define the types of API requests",
+        "To specify the types of props a component should receive",
+        "To validate HTML syntax in React components",
+        "To manage the styles of React components"
+      ],
+      "correctOption": 1,
+      "points": 15
+    }
+  ]
+}
