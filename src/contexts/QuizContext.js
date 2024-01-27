@@ -1,14 +1,16 @@
-import { createContext, useContext, useReducer, useEffect } from "react";
+import { createContext, useContext, useReducer } from "react";
+import questionsDB from "../questions.json";
 
 const QuizContext = createContext();
 
 const SECS_PER_QUESTION = 30;
 
 const initialState = {
-  questions: [],
+  questions: questionsDB.questions,
 
   // 'loading', 'error', 'ready', 'active', 'finished'
-  status: "loading",
+  status: "ready",
+  // status: "loading",
   index: 0,
   answer: null,
   points: 0,
@@ -82,12 +84,12 @@ function QuizProvider({ children }) {
     0
   );
 
-  useEffect(function () {
-    fetch("http://localhost:9000/questions")
-      .then((res) => res.json())
-      .then((data) => dispatch({ type: "dataReceived", payload: data }))
-      .catch((err) => dispatch({ type: "dataFailed" }));
-  }, []);
+  // useEffect(function () {
+  //   fetch("http://localhost:9000/questions")
+  //     .then((res) => res.json())
+  //     .then((data) => dispatch({ type: "dataReceived", payload: data }))
+  //     .catch((err) => dispatch({ type: "dataFailed" }));
+  // }, []);
 
   return (
     <QuizContext.Provider
